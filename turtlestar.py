@@ -10,7 +10,7 @@ if sides%2 != 0:
 
     for side in range(sides):
         bob.forward(length)
-        bob.right (180-(180.0000/sides))
+        bob.right (180-(180.0000/sides)) ### 180.0 is the same as 180.0000
 
 else:
     print 'Please enter an odd number'
